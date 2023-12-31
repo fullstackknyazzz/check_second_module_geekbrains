@@ -107,7 +107,8 @@ Dogs   Cats   Hamsters   Horses   Camels   Donkeys
 
 ```
 
-7. Connect to MySQL and Create Database:
+7. В подключенном MySQL репозитории создать базу данных “Друзья
+человека”:
 ```sql
 -- Connect to MySQL and create a new database
 CREATE DATABASE IF NOT EXISTS `Friends_of_Humans`;
@@ -116,7 +117,7 @@ CREATE DATABASE IF NOT EXISTS `Friends_of_Humans`;
 USE `Friends_of_Humans`;
 
 ```
-8. Create Tables Based on the Diagram:
+8. Создать таблицы с иерархией из диаграммы в БД:
 ```sql
 -- Creating tables based on the class diagram
 
